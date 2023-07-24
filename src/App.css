@@ -1,0 +1,42 @@
+.chatbox {
+  border: 1.5px solid black;
+  border-radius: 5px;
+  margin: 5px 0;
+  padding: 10px;
+  background-color: #f7f0f1;
+}
+
+.me .chatbox {
+
+  background-color: #6365b0;
+}
+
+/* .chat-container {
+  background-color: #f0ba97;
+} */
+
+.container {
+  display: flex;
+}
+
+.container.me {
+  flex-direction: row-reverse;
+}
+
+.bottom{
+  position: fixed;
+  width:100%;
+  bottom:5px;
+  display: flex;
+  flex-direction: row;
+}
+
+.bottom input {
+  padding: 10px 0;
+  flex-grow: 1;
+}
+
+.bottom button {
+  padding: 10px 0;
+}
+
